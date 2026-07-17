@@ -1,7 +1,63 @@
-h1{
-    background-color: green;
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color:#210c81;
     color: white;
-    width: 200px;
-    margin: auto;
-    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid #f58484;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    padding:12px 15px;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition:0.5s;
+}
+nav ul li a:hover{
+    background-color: #11044c;
+    border-radius: 10px;
+}
+/* Hero Area Code Starts */
+.hero_parent{
+    background-image: url('images/website\ banner.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: center center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_child1 input{
+    width: 350px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.hero_child2 i{
+    width: 60px;
+    height: 40px;
+    background-color: #210c81;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: -2px;
 }
