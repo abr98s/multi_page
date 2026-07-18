@@ -33,31 +33,30 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 /* Hero Area Code Starts */
-.hero_parent{
+header{
     background-image: url('images/website\ banner.jpg');
+    padding: 200px 0px;
     background-repeat: no-repeat;
-    background-position: cover;
-    background-size: center center;
-    height: 90vh;
+    background-position: center center;
+    background-size: cover;
+}
+.search_parent{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.hero_child1 input{
-    width: 350px;
+.search_parent i{
+    width: 40px;
     height: 40px;
-    padding-left: 15px;
+    background-color: green;
     font-size: 20px;
-}
-.hero_child2 i{
-    width: 60px;
-    height: 40px;
-    background-color: #210c81;
-    color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 25px;
+    align-items: center;
     cursor: pointer;
-    margin-left: -2px;
+}
+.search_parent input{
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 20px;
 }
